@@ -5,6 +5,7 @@ I build tools and workflows that let coding agents take on real work while you s
 | Project | What it is |
 | --- | --- |
 | [orchestral](https://github.com/afterimaginary/orchestral) | A workflow layer for Claude Code: give it a brief, and it plans the work, runs a fleet of worker sessions within your budget, and stops for your input on the decisions that matter. Rust + Claude Code plugin. |
+| [backread](https://github.com/afterimaginary/backread) | After Claude Code compacts a session, the agent can search the conversation it lost and get back what the summary dropped. Tested before it was built: on CompactBench, search beat a summary four times the size on Haiku, Sonnet and Opus. Python + Claude Code plugin. |
 | [cc-notify-tts](https://github.com/afterimaginary/cc-notify-tts) | Claude Code tells you out loud, in one sentence, what it finished or what it needs from you. Runs locally on macOS, and an eval of local models picked the default one. |
 | [oxlint-plugin-complexity-hints](https://github.com/afterimaginary/oxlint-plugin-complexity-hints) | Keeps agent-written code easy to review: a complexity rule whose one-line message says exactly what to change. |
 
